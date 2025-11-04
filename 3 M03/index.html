@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tales — Portfólio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <img src="WhatsApp Image 2025-11-04 at 08.29.09.jpeg" alt="Foto do Tales" class="photo" />
+      <div class="intro">
+        <h1>Tales</h1>
+        <p class="role">Portfolio pessoal</p>
+        <nav class="nav">
+          <a href="#sobre">Sobre</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="sobre" class="card">
+      <h2>Prazer — sou o Tales</h2>
+      <p>
+        Prazer, o meu nome é <strong>Tales</strong>. Tenho 17 anos e estou no último ano do ensino médio.
+        Trabalho com <strong>lavagem detalhada</strong> e <strong>lavagem de estofado</strong>.
+      </p>
+      <p>
+        Gosto de fazer um trabalho caprichado, atender bem o cliente e aprender sempre.
+      </p>
+    </section>
+
+    <section id="habilidades" class="card">
+      <h2>Principais habilidades</h2>
+      <ul class="skills">
+        <li>Sei bolar ideias criativas</li>
+        <li>Sei dar conselhos e orientar clientes</li>
+        <li>Trabalho com atenção aos detalhes</li>
+        <li>Organização e responsabilidade</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="card">
+      <h2>Meios de contato</h2>
+      <p>Siga ou mande DM no Instagram:</p>
+      <p class="contact">
+        <a href="https://instagram.com/tales_ferrando" target="_blank" rel="noopener noreferrer">@tales_ferrando</a>
+      </p>
+      <p>Substitua o link se quiser outro perfil ou WhatsApp.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Tales — Portfólio simples</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
